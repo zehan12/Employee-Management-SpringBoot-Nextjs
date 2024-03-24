@@ -1,10 +1,11 @@
-import { Button } from "./components/ui/button";
+import { Fragment } from "react/jsx-runtime";
+import Navbar from "./components/navbar/navbar";
 
 function App() {
   return (
-    <div className="text-center">
-      <h1 className="text-3xl font-bold underline">Employee App</h1>
-    </div>
+    <Fragment>
+      <Navbar />
+    </Fragment>
   );
 }
 
